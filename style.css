@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.container > header {
+    height: 70px;
+    background-color: rgb(215, 129, 224);
+}
+
+.container > main > section {
+    margin-top: 10px;
+}
+
+main > section.background {
+    background-color: rgb(224, 214, 134);
+    height: 250px;
+}
+
+main > section.clearflix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+main > section.background-lb {
+    background-color: rgb(54, 136, 248);
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+section > div:first-child {
+    height: 50px;
+    background-color: rgb(178, 206, 228);
+    margin-bottom: 10px;
+}
+
+section > .float-lf, section > .float-rh {
+    width: 20%;
+}
+
+main > section > .float-c {
+    width: 58%; /* 100% -(i margini) - (le due sezioni laterali) */
+    margin: 0 1%;
+}
+
+ div.float-lf, div.float-c, div.float-rh {
+    float: left;
+    height: 300px;
+    background-color: rgb(178, 206, 228);
+}
+
+.container > footer {
+    height: 40px;
+    background-color: rgb(122, 41, 234);
+}
+
