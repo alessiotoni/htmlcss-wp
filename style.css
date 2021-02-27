@@ -5,7 +5,8 @@
 }
 
 html {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 div.container {
@@ -50,7 +51,8 @@ main > section.hero {
 
 .hero > div {
     width: 55%;
-    color: black;
+    color: rgb(63, 62, 62);
+    
 }
 
 main > section.clearflix::after {
@@ -97,8 +99,7 @@ main > section > .float-c {
 
 .float-lf .bg-image {
     background-image: url(img/img-1.jpg);
-    background-size: cover;
-    
+    background-size: cover;   
 }
 
 .float-rg .bg-image {
