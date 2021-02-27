@@ -37,7 +37,7 @@ nav > ul a {
 }
 
 .container > main > section {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 main > section.hero {
@@ -45,11 +45,11 @@ main > section.hero {
     background-position: center;
     background-size: 80%;
     padding: 200px 0 30px 30px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .hero > div {
-    width: 60%;
+    width: 55%;
     color: black;
 }
 
@@ -59,19 +59,20 @@ main > section.clearflix::after {
     clear: both;
 }
 
-main > section.background-lb {
-    background-color: rgb(54, 136, 248);
+main > section.leadership {
     padding-bottom: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-/* section > div:first-child {
-    height: 50px;
-    background-color: rgb(178, 206, 228);
-    margin-bottom: 10px; */
+section > div.leadership-up {
+    margin-bottom: 30px;
 }
 
-section > .float-lf, section > .float-rh {
+.leadership p {
+    color: gray;
+}
+
+section > .float-lf, section > .float-rg {
     width: 20%;
 }
 
@@ -80,14 +81,46 @@ main > section > .float-c {
     margin: 0 10px;
 }
 
- div.float-lf, div.float-c, div.float-rh {
+ div.float-lf, div.float-c, div.float-rg {
     float: left;
-    height: 300px;
-    background-color: rgb(178, 206, 228);
 }
 
-.container > footer {
-    height: 40px;
-    background-color: rgb(122, 41, 234);
+.leadership .bg-image {
+    height: 180px;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.float-lf .bg-image {
+    background-image: url(img/img-1.jpg);
+}
+
+.float-rg .bg-image {
+    background-image: url(img/img-3.jpg);
+}
+
+.float-c .bg-image {
+    background-image: url(img/banner-2.jpg);
+}
+
+.layover {
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.2);
+    border-radius: 20px;
+}
+
+.leadership h4 {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    line-height: 50px;
+    text-align: center;
+}
+
+footer > span::after {
+    color: red;
+    content: "\2764";
 }
 
