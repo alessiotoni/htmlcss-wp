@@ -68,6 +68,10 @@ section > div.leadership-up {
     margin-bottom: 30px;
 }
 
+.leadership h1 {
+    margin-bottom: 5px;
+}
+
 .leadership p {
     color: gray;
 }
@@ -77,8 +81,8 @@ section > .float-lf, section > .float-rg {
 }
 
 main > section > .float-c {
-    width: calc(100% - 40% - 20px); /* 100% -(i margini) - (le due sezioni laterali) */
-    margin: 0 10px;
+    width: calc(100% - 40% - 30px); /* 100% -(i margini) - (le due sezioni laterali) */
+    margin: 0 15px;
 }
 
  div.float-lf, div.float-c, div.float-rg {
@@ -86,13 +90,15 @@ main > section > .float-c {
 }
 
 .leadership .bg-image {
-    height: 180px;
-    background-size: cover;
+    height: 180px;  
     margin-bottom: 15px;
+    background-position: center;
 }
 
 .float-lf .bg-image {
     background-image: url(img/img-1.jpg);
+    background-size: cover;
+    
 }
 
 .float-rg .bg-image {
@@ -101,6 +107,7 @@ main > section > .float-c {
 
 .float-c .bg-image {
     background-image: url(img/banner-2.jpg);
+    background-size: cover;
 }
 
 .layover {
